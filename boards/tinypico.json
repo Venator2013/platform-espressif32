@@ -1,6 +1,6 @@
 {
   "build": {
-    "arduino":{
+    "arduino": {
       "ldscript": "esp32_out.ld"
     },
     "core": "esp32",
@@ -9,7 +9,7 @@
     "f_flash": "40000000L",
     "flash_mode": "qio",
     "mcu": "esp32",
-    "variant": "pico32"
+    "variant": "um_tinypico"
   },
   "connectivity": [
     "wifi",
